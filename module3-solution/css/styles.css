@@ -1,0 +1,55 @@
+body {
+  background-color: #e1eefa;
+}
+
+.navbar, .tall-section {
+  background-color: #d3ffe3;
+  border: solid 1px #b1ffcd;
+  box-shadow: 0 0 10px #003a15;
+}
+
+.navbar-brand {
+  height: 70px;
+}
+
+.navbar-brand h1 {
+  margin: 0;
+  color: #9a23ff;
+}
+
+.navbar-right li {
+  text-align: center;
+}
+
+.navbar-right hr {
+  margin: 5px 0;
+}
+
+.navbar-default .navbar-toggle {
+  margin-top: 17px;
+  border-color: #888;
+}
+
+#collapse-navigation {
+  background-color: #f5fff8;
+}
+
+.tall-section {
+  border-radius: 5px;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.tall-section h3 {
+  margin: 0 auto 10px;
+}
+
+.tall-section p {
+  text-align: justify;
+}
+
+@media screen and (min-width: 768px) {
+  #collapse-navigation {
+    background-color: inherit;
+  }
+}
